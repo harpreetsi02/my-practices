@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const initialTranslateLTR = -48 * 4; // -192px
 const initialTranslateRTL = 36 * 4;  // 144px
@@ -6,7 +6,7 @@ const initialTranslateRTL = 36 * 4;  // 144px
 const CompanyContainers = () => {
   // refs for three lines
   const line1Ref = useRef(null);
-  const line2Ref = useRef(null);
+  const line2Ref = useRef(null); 
   const line3Ref = useRef(null);
 
   useEffect(() => {

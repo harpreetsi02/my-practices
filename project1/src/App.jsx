@@ -4,8 +4,8 @@ function App() {
   return(
     <div>
       <Home/>
-    </div> 
-  ) 
+    </div>   
+  )  
 } 
 
 export default App

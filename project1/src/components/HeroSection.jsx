@@ -1,7 +1,10 @@
+import FeatureLine from "./FeatureLine"
 import HeroButtons from "./HeroButtons"
 import HeroFeature from "./HeroFeature"
 import HeroSlider from "./HeroSlider"
 import MainHeading from "./MainHeroHeading"
+import NativeNotifications from "./NativeNotifications"
+import StepContainer from "./StepContainer"
 import VersionText from "./VersionText"
 
 const HeroSection = () => {
@@ -15,6 +18,9 @@ const HeroSection = () => {
             </div>
             <div>
                 <HeroSlider/>
+                <StepContainer/> 
+                <NativeNotifications/>
+                <FeatureLine/>
             </div>
         </div>
     )
